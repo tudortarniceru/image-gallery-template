@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8"> 
+	<head>
+	    <link rel="icon" href="favicon.ico" type="image/gif" sizes="16x16">
+        <title>Image Gallery</title>
+        <link rel="stylesheet" id="site-colors" href="color_schemes/site-colors0.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style-menu.css">
+        <link rel="stylesheet" href="style-content.css">
+        <link rel="stylesheet" href="style-display-image.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Lato|Montez" rel="stylesheet"> 
+        <script src="horizontal-vertical.js"></script>
+        <script src="color_scheme.js"></script>
+        <script src="display-photos.js"></script>
+        <script src="push_images.js"></script>
+        <link rel="stylesheet" id="display-perspective" href="perspectives/horizontal.css">
+    </head>
+
+    <body id="body" onload="changeColorScheme(); displayPhotos(); loadPerspective();">
+        <div class="main" id="main">
+            <div class="left-menu-background" id="left-menu-background">
+                <div class="left-menu" id="left-menu">
+                    <div class="top-menu">
+                        <div class="header-menu">
+                            Lorem Ipsum
+                        </div>
+                        <div class="content-menu">
+                            <a href="#" class="item-menu first-item-menu"><i class="fas fa-tv fa-icon-menu"></i> Lorem Ipsum</a>
+                            <a href="#" class="item-menu"><i class="far fa-eye fa-icon-menu"></i> Lorem Ipsum</a>
+                            <a href="#" class="item-menu"><i class="far fa-address-book fa-icon-menu"></i> Lorem Ipsum</a>
+                            <a href="#" class="item-menu"><i class="fas fa-archive fa-icon-menu"></i> Lorem Ipsum</a>
+                            <a href="#" class="item-menu last-item-menu"><i class="fas fa-bell fa-icon-menu"></i> Lorem Ipsum</a>
+                            
+                        </div>
+                    </div>
+                    <div class="bottom-menu">
+                        <div class="footer-text-menu">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor hendrerit dolor ut ornare. Nullam fermentum iaculis erat at feugiat. Duis cursus nisi ac felis pretium, sed ultricies ligula mollis. Cras fringilla tincidunt consectetur. Donec consequat est est, a ultricies nibh eleifend.
+                        </div>
+                        <div class="footer-icon-menu">
+                            <i class="footer-icon-min-width fab fa-github"></i>&nbsp;GITHUB | &nbsp;<i class="footer-icon-min-width far fa-file-alt"></i>&nbsp;DOCS | &nbsp;<span onclick="changePerspective();"><i id="changePerspective" class="footer-icon-min-width fas fa-grip-lines-vertical"></i>&nbsp;LAYOUT</span> &nbsp;| &nbsp;<i onclick="nextColorScheme();" class="footer-icon-min-width fas fa-palette"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="display-area" id="display-area" onclick="closeImage();">
+                <div class="wrapper" id="wrapper">
+
+                </div> 
+            </div>
+            <div class="content" id="content">
+                <div class="gallery" id="gallery">
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

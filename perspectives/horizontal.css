@@ -1,0 +1,39 @@
+.wrapper {
+    flex-direction: row;
+}
+
+.name-description-wrapper {
+    height: 80%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-name {
+    width: 100%;
+    text-align: justify;
+    padding: 24px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+}
+
+.image-description {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    overflow: auto;
+    text-align: justify;
+}

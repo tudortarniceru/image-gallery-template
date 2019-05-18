@@ -1,0 +1,27 @@
+.content {
+    margin-left: 300px;
+    padding: 24px 24px;
+    background: url("backgrounds/background-content.png");
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.image-thumbnail {
+    box-flex: auto;
+    flex: auto;
+    width: 350px;
+    height: 600px;
+    margin: 10px;
+    object-fit: cover;
+    transition-duration: 0.5s;
+}
+
+.image-thumbnail:hover {
+    filter:brightness(75%);
+    cursor: pointer;
+}

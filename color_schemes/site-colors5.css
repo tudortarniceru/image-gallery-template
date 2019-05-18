@@ -1,0 +1,43 @@
+.left-menu {
+    --menuShadow: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+.header-menu {
+    color: #eef1f4;
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+
+.item-menu {
+    color: #eef1f4;
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-text-menu {
+    border-top-color: rgba(255, 255, 255, 0.5);
+    color: #eef1f4;
+}
+
+.footer-icon-menu {
+    border-top-color: rgba(255, 255, 255, 0.5);
+    color: #eef1f4;
+}
+
+.display-area {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #eef1f4;
+}
+
+.image-name {
+    color: #eef1f4;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.image-description {
+    color: #eef1f4;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.name-description-wrapper {
+    background-color: rgba(0, 0, 0, 0.75);
+}

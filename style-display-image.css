@@ -1,0 +1,32 @@
+.display-area {
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper {
+    height: 100%;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image-area {
+    height: 80%;
+}
+
+.image-displayer {
+    height: 100%;
+    width: auto;
+}
+
+.no-background {
+    background-color: rgba(0, 0, 0, 0);
+}

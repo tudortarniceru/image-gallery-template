@@ -1,0 +1,8 @@
+for (var i = 1; i <= 15; ++i) {
+    if (i == 7) {
+        pushImage("Lorem Ipsum", "7.jpg", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce arcu nunc, ornare lacinia sem at, rutrum commodo sapien. Aliquam dictum mauris vulputate justo malesuada egestas. Integer sapien velit, consequat sit amet semper quis, facilisis vel turpis. Sed sed maximus mauris. Integer dignissim bibendum turpis ac placerat. Suspendisse consequat felis quis quam maximus, eget finibus neque luctus. Vivamus euismod vulputate leo, condimentum malesuada nulla semper sit amet. Ut mi enim, efficitur id eleifend sit amet, porttitor ultrices mi. Nullam non velit lorem. Vivamus quis ipsum neque. Cras ac elit ipsum. Sed pulvinar est enim. Sed non ultricies mi, nec luctus leo. Nunc molestie semper nibh id feugiat.", 900);
+    }
+    else {
+        pushImage("Lorem Ipsum", i + ".jpg", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce arcu nunc, ornare lacinia sem at, rutrum commodo sapien. Aliquam dictum mauris vulputate justo malesuada egestas. Integer sapien velit, consequat sit amet semper quis, facilisis vel turpis. Sed sed maximus mauris. Integer dignissim bibendum turpis ac placerat. Suspendisse consequat felis quis quam maximus, eget finibus neque luctus. Vivamus euismod vulputate leo, condimentum malesuada nulla semper sit amet. Ut mi enim, efficitur id eleifend sit amet, porttitor ultrices mi. Nullam non velit lorem. Vivamus quis ipsum neque. Cras ac elit ipsum. Sed pulvinar est enim. Sed non ultricies mi, nec luctus leo. Nunc molestie semper nibh id feugiat.");
+    }
+}

@@ -32,7 +32,6 @@ function displayPhotos() {
 }
 
 function calculateVerticalDisplay() {
-    console.log('a');
     if (localStorage["perspective"] == 0) {
         var imageWidth = document.getElementById("image-area").clientWidth;
         document.getElementById("image-name").style.width = imageWidth + "px";
@@ -46,9 +45,6 @@ function showImage(nr) {
     document.getElementById("image-area").innerHTML = "<img onload='calculateVerticalDisplay();' class='image-displayer' src='images/" + images[nr].source + "'>";
     document.getElementById("image-name").innerHTML = images[nr].name;
     document.getElementById("image-description").innerHTML = images[nr].desc;
-
-    //Vertical Display
-    calculateVerticalDisplay();
 }
 
 function closeImage() {

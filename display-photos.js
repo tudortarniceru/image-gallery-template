@@ -35,17 +35,15 @@ function showImage(nr) {
     document.getElementById("display-area").style.display = "flex";
     var domTxt = "";
     document.getElementById("image-area").innerHTML = "<img class='image-displayer' src='images/" + images[nr].source + "'>";
-  
-    //Vertical Display
-    if (localStorage["perspective"] == 0) {
-        var imageWidth = document.getElementById("image-area").offsetWidth;
-        document.getElementById("image-name").style.width = imageWidth + "px";
-        document.getElementById("image-description").style.width = imageWidth + "px";
-    }
-
     document.getElementById("image-name").innerHTML = images[nr].name;
     document.getElementById("image-description").innerHTML = images[nr].desc;
 
+    //Vertical Display
+    if (localStorage["perspective"] == 0) {
+        var imageWidth = document.getElementById("image-area").clientWidth;
+        document.getElementById("image-name").style.width = imageWidth + "px";
+        document.getElementById("image-description").style.width = imageWidth + "px";
+    }
 }
 
 function closeImage() {

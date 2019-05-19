@@ -28,6 +28,7 @@ function displayPhotos() {
     }
     document.getElementById("gallery").innerHTML = domTxt;
     loadCustomDimensions();
+    loadPerspective();
 }
 
 function showImage(nr) {

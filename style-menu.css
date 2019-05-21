@@ -85,7 +85,6 @@
     box-sizing: border-box;
     border-top: 2px solid;
     font-size: 14px;
-    text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding: 16px 0px 10px 0px;
@@ -93,4 +92,10 @@
 
 .footer-icon-min-width {
     min-width: 14px;
+}
+
+.bottom-link-menu {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
 }
